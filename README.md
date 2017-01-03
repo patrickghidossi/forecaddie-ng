@@ -4,7 +4,7 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 
 ## About
 
-ForeCaddie is a dynamic golf scoring application. It enables the user to track detailed round statistics over variable periods of time to recognize and pinpoint the areas of their game that most need improvement. 
+ForeCaddie is a dynamic golf scoring application. It enables the user to track detailed round statistics over periods of time to recognize and pinpoint the areas of their game that most need improvement. 
 
 This version is an Angular 2 port of the original version built with JavaScript and JQuery as a final project at CodeCraft School of Technology. 
 
