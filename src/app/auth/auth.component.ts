@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'auth',
+  selector: 'fc-auth',
   templateUrl: './auth.component.html',
   styleUrls: ['./auth.component.css']
 })
