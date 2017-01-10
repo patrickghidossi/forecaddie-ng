@@ -94,16 +94,10 @@
 	bottom: 0;
 	height: 60px;
 	width: 100%;
-	background-image: url("grass_background.jpg");
+	background-image: url("images/grass_background.jpg");
 	text-align: right;
 	font-family: 'Carter One', cursive;
 	color: #FFF;
-}
-
-@media screen and(max-width:760px){
-	#quoteButton,#addNew{
-		display: block;
-	}
 }
 
 /* Media Queries */
