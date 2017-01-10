@@ -39,3 +39,23 @@
 	padding-left: 60px;
 	color: #FFFFFF;
 }
+
+/* Background Image Media Queries */
+
+@media only screen and (min-width: 1800px) {
+	#first_container {
+		background-image: url(dunbar_imac_screen.jpg);
+	}
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+	#first_container {
+		background-image: url(dunbar_middle_screen.jpg);
+	}
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+	#first_container {
+		background-image: url(dunbar_iphone_screen.jpg)  no-repeat center center fixed;
+	}
+}
