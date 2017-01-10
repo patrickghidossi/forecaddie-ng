@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { LandComponent } from './land/land.component';
 import { AuthComponent } from './auth/auth.component';
+import { AboutComponent } from './land/about.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandComponent,
-    AuthComponent
+    AuthComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
