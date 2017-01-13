@@ -8,6 +8,9 @@ import { LandComponent } from './land/land.component';
 import { AuthComponent } from './auth/auth.component';
 import { AboutComponent } from './land/about.component';
 
+import { AuthService } from "./auth/auth.service";
+import { ApiService } from "./api.service";
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +23,10 @@ import { AboutComponent } from './land/about.component';
     FormsModule,
     HttpModule,
   ],
-  providers: [],
+  providers: [
+    AuthService,
+    ApiService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

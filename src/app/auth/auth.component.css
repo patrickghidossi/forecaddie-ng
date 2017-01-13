@@ -37,7 +37,12 @@
   transform: translateY(4px);
 }
 
+#login {
+	border-left: .5px solid #3AAF85;
+}
+
 #scroll {
 	text-decoration: none;
 	color: #FFF;
+	border-right: .5px solid #3AAF85;
 }
